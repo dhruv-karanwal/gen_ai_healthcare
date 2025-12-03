@@ -1,0 +1,30 @@
+{
+    "patient_id": "253ea20f-4387-43a3-b495-488228de6789",
+    "ground_truth": {
+        "diabetes": 0,
+        "heart_disease": 0,
+        "kidney_disease": 1
+    },
+    "results": {
+        "diabetes": {
+            "pred_label": 0,
+            "probability": 1.9880012587236706e-06,
+            "model_path": "Predictions/Models/best_diabetes_model.pkl"
+        },
+        "heart_disease": {
+            "pred_label": 1,
+            "probability": 0.9932738542556763,
+            "model_path": "Predictions/Models/heart_failure_model.pkl"
+        },
+        "kidney_disease": {
+            "pred_label": 1,
+            "probability": 0.9733268618583679,
+            "model_path": "Predictions/Models/kidney_model.pkl"
+        }
+    },
+    "correctness": {
+        "diabetes": false,
+        "heart_disease": false,
+        "kidney_disease": false
+    }
+}

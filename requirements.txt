@@ -1,0 +1,15 @@
+flask
+flask-cors
+requests
+numpy
+scikit-learn
+joblib
+xgboost
+python-doctr[tensorflow]
+tensorflow
+tf-keras
+opencv-python
+pypdfium2
+google-generativeai
+python-dotenv
+supabase

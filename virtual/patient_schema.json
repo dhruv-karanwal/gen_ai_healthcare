@@ -1,0 +1,34 @@
+{
+  "patient_id": "",
+  "demographics": {
+    "age": 0,
+    "gender": "",
+    "height_cm": 0,
+    "weight_kg": 0,
+    "bmi": 0.0
+  },
+  "symptoms": [],
+  "vitals": {
+    "blood_pressure_systolic": 0,
+    "blood_pressure_diastolic": 0,
+    "heart_rate": 0,
+    "respiratory_rate": 0,
+    "temperature_c": 0.0
+  },
+  "lab_values": {
+    "blood_glucose": 0,
+    "cholesterol": 0,
+    "creatinine": 0.0,
+    "urea": 0.0,
+    "hbA1c": 0.0
+  },
+  "risk_factors": {
+    "smoking": false,
+    "family_history": false,
+    "obesity": false,
+    "alcohol": false,
+    "physical_inactivity": false
+  },
+  "synthetic_image_path": "",
+  "ground_truth_diagnosis": ""
+}

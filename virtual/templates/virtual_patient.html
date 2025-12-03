@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Virtual Patient Simulator</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Virtual Patient Simulator</h1>
+
+        <button id="generate-btn">Generate Patient</button>
+
+        <div id="patient-info" class="hidden">
+            <h2>Patient Details</h2>
+            <table id="patient-table">
+                <tbody></tbody>
+            </table>
+
+            <h2>Predictions vs Ground Truth</h2>
+            <table id="prediction-table">
+                <thead>
+                    <tr>
+                        <th>Disease</th>
+                        <th>Prediction</th>
+                        <th>Ground Truth</th>
+                        <th>Correct?</th>
+                    </tr>
+                </thead>
+                <tbody></tbody>
+            </table>
+
+            <h2>Medical Image</h2>
+            <img id="patient-image" src="" alt="Synthetic Medical Image">
+        </div>
+    </div>
+
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
